@@ -11,8 +11,8 @@ greet("alex");
 // Exercise 2: Sum of Numbers
 function sumNumbers(numbers) {
     let sum = 0;
-    for (let index = 0; i < numbers.length; index++) {
-        sum += numbers[i];
+    for (let index = 0; index < numbers.length; index++) {
+        sum += numbers[index];
     }
     return sum;
 }
